@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+
+# Environment files
+.env
+
+# Ignore package-lock.json file
+package-lock.json  
+
+# Log files
+*.log
+
+# Build artifacts
+/build/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Compiled TypeScript JavaScript files
+*.js
+*.js.map
+
