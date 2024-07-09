@@ -1,4 +1,3 @@
-// jwtService.ts
 import * as jwt from "jsonwebtoken";
 import { findUserById } from "../models/userModel";
 import { InvalidTokenError } from "../errors/customeError";
@@ -36,7 +35,5 @@ export async function verifyToken(
     return { userId: userData._id };
   } catch (error) {
     throw error;
-    // console.error("Token verification failed:", error);
-    // return null;
   }
 }
